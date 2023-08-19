@@ -1,0 +1,8 @@
+{
+  "editor.suggest.showStatusBar": true,
+  "peacock.affectStatusAndTitleBorders": false,
+  "zenMode.hideStatusBar": true,
+  "debug.enableStatusBarColor": true,
+  "workbench.statusBar.visible": true,
+  "liveServer.settings.multiRootWorkspaceName": "#practise"
+}
