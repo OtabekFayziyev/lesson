@@ -99,5 +99,55 @@
 // console.log(y);
 
 
-console.log(5*5 == "25");   // 2 talik == belgisi qiymatlarni bir biriga teng ekanligini solishtiradi
-console.log(5*5 === "25");  // 3 talik === belgisi qiymatlarni turini solishtiradi. MISOL: NUMBER === STRING
+// console.log(5*5 == "25");   // 2 talik == belgisi qiymatlarni bir biriga teng ekanligini solishtiradi
+// console.log(5*5 === "25");  // 3 talik === belgisi qiymatlarni turini solishtiradi. MISOL: NUMBER === STRING
+
+
+// ------------------------------ A M A L I Y O T -------------
+
+// let numberOfSeries = prompt("Nechta serial ko’rdingiz?")
+
+// let seriesDB = {
+//     "numSerials": numberOfSeries,
+//     "series": {},
+//     "actors": {
+//         "main": {}
+//     },
+//     "genres": [],
+//     "privat": false
+// }
+
+// let seriusData = {}
+// for (i = 0; i < 2; i++) {
+//     let lastSerial = prompt("Oxirgi ko`rgan serialingiz?")
+//     let payment = prompt("Necha baho berasiz?")
+//     seriusData[lastSerial] = payment;
+// }
+
+// seriesDB.series = seriusData;
+
+// console.log(seriesDB);
+
+
+
+
+let numberOfSeries = prompt("Nechta serial ko’rdingiz?")
+
+let seriesDB = {
+    "count": numberOfSeries,
+    "series": {},
+    "actors": {},
+    "genres": [],
+    "privat": false
+};
+
+let seriusData = {}
+for (i = 0; i < 2; i++) {
+    let lastSerial = prompt("Oxirgi ko`rgan serialingiz?")
+    let assesment = prompt("Nechi baxo berasiz?")
+    seriusData[lastSerial] = assesment
+};
+
+seriesDB.series = seriusData;
+
+console.log(seriesDB);

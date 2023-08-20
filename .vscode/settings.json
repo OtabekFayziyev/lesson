@@ -4,5 +4,6 @@
   "zenMode.hideStatusBar": true,
   "debug.enableStatusBarColor": true,
   "workbench.statusBar.visible": true,
-  "liveServer.settings.multiRootWorkspaceName": "#practise"
+  "liveServer.settings.multiRootWorkspaceName": "#practise",
+  "liveServer.settings.port": 5501
 }
