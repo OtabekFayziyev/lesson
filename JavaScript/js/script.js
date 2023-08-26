@@ -131,23 +131,82 @@
 
 
 
-let numberOfSeries = prompt("Nechta serial ko’rdingiz?")
+// let numberOfSeries = prompt("Nechta serial ko’rdingiz?")
 
-let seriesDB = {
-    "count": numberOfSeries,
-    "series": {},
-    "actors": {},
-    "genres": [],
-    "privat": false
+// let seriesDB = {
+//     "count": numberOfSeries,
+//     "series": {},
+//     "actors": {},
+//     "genres": [],
+//     "privat": false
+// };
+
+// let seriusData = {}
+// for (i = 0; i < 2; i++) {
+//     let lastSerial = prompt("Oxirgi ko`rgan serialingiz?")
+//     let assesment = prompt("Nechi baxo berasiz?")
+//     seriusData[lastSerial] = assesment
+// };
+
+// seriesDB.series = seriusData;
+
+// console.log(seriesDB);
+
+
+
+
+// ----------------SHARTLIM OPERATORLAR------TERNARY--->
+
+// let point = false;
+// let result = point == true ? "o`chegirma 20%" : "o`chegirma 5%";
+// console.log("siz uchun :", result);
+
+// let client = false
+// let discount = client ? '25%' : '5%';
+// console.log('Discount:', discount);
+
+// let sum=1000;
+// let chek=true;
+// let resultSum=chek? sum*0.8 : sum*0.95;
+
+// console.log(resultSum);
+
+
+// ----------- IF /   ELSE IF--------------
+
+// let haur = 22;
+
+// if ( haur >=6 && haur < 12) {
+//     console.log("Hayrli tong");
+// } else if (haur >= 12 && haur < 18 ) {
+//     console.log("Hayrli kun");
+// } else {
+//     console.log("Hayrli kech");
+// }
+
+
+// ------------SWITCH CASE------
+
+let a = "book";
+
+// switch (a) {
+//     case "pencil":
+//         console.log("qalam");
+//         break;
+
+//     case "book":
+//         console.log("kitob");
+//         break;
+
+//     default:
+//         console.log("No`malum so`z");
+//         break;
+// };
+
+if (a === "pencil" ) {
+    console.log("qalam");
+} else if (a === "book"){
+    console.log("kitob")
+}else {
+    console.log("No`malum so`z");
 };
-
-let seriusData = {}
-for (i = 0; i < 2; i++) {
-    let lastSerial = prompt("Oxirgi ko`rgan serialingiz?")
-    let assesment = prompt("Nechi baxo berasiz?")
-    seriusData[lastSerial] = assesment
-};
-
-seriesDB.series = seriusData;
-
-console.log(seriesDB);
