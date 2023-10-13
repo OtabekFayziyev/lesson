@@ -105,7 +105,7 @@
 
 // ------------------------------ A M A L I Y O T -------------
 
-// let numberOfSeries = prompt("Nechta serial ko’rdingiz?")
+// let numberOfSeries = prompt("Nechta serial ko`rdingiz?")
 
 // let seriesDB = {
 //     "numSerials": numberOfSeries,
@@ -119,12 +119,70 @@
 
 // let seriusData = {}
 // for (i = 0; i < 2; i++) {
-//     let lastSerial = prompt("Oxirgi ko`rgan serialingiz?")
-//     let payment = prompt("Necha baho berasiz?")
+//     if ( seriesDB[numSerials] === "" || seriesDB[numSerials] === null && seriesDB.series ===null ) {
+//         let lastSerial = prompt("Oxirgi ko`rgan serialingiz?")
+//     }else if {
+//         let payment = prompt("Necha baho berasiz?")
+//     };
+
 //     seriusData[lastSerial] = payment;
 // }
 
 // seriesDB.series = seriusData;
+
+// console.log(seriesDB);
+
+
+
+// let numberOfSeries = prompt("Nechta serial ko`rdingiz?");
+
+// let seriesDB = {
+//     "numSerials": numberOfSeries,
+//     "series": {},
+//     "actors": {
+//         "main": {}
+//     },
+//     "genres": [],
+//     "privat": false
+// };
+
+// // if (seriesDB.numSerials >= "5") {
+// //     console.log(" kam serial koribsiz");
+// // } else {
+// //     console.log("zor");
+// // };
+
+// for (let i = 0; i >= 1; i++) {
+//     let a = prompt("Oxirgi ko`rgan serialingiz?"),
+//         b = prompt("Necha baho berasiz?");
+
+//     seriesDB.series [a] = b;
+// }
+// for (let i = 0; i < parseInt(numberOfSeries); i++) {
+//     let lastSerial;
+//     while (true) {
+//         lastSerial = prompt("Oxirgi ko`rgan serialingiz?");
+//         if (lastSerial === null || lastSerial.trim() === "") {
+//             alert("Iltimos, savollarga javob bering.");
+//         } else {
+//             break;
+//         }
+//     }
+
+//     let payment;
+//     while (true) {
+//         payment = prompt("Necha baho berasiz?");
+//         if (payment === null || payment.trim() === "") {
+//             alert("Iltimos, savollarga javob bering.");
+//         } else {
+//             break;
+//         }
+//     }
+
+//     seriusData[lastSerial] = payment;
+// }
+
+
 
 // console.log(seriesDB);
 
@@ -187,26 +245,45 @@
 
 // ------------SWITCH CASE------
 
-let a = "book";
+// let a = "book";
 
-// switch (a) {
-//     case "pencil":
-//         console.log("qalam");
-//         break;
+// // switch (a) {
+// //     case "pencil":
+// //         console.log("qalam");
+// //         break;
 
-//     case "book":
-//         console.log("kitob");
-//         break;
+// //     case "book":
+// //         console.log("kitob");
+// //         break;
 
-//     default:
-//         console.log("No`malum so`z");
-//         break;
+// //     default:
+// //         console.log("No`malum so`z");
+// //         break;
+// // };
+
+// if (a === "pencil" ) {
+//     console.log("qalam");
+// } else if (a === "book"){
+//     console.log("kitob")
+// }else {
+//     console.log("No`malum so`z");
 // };
 
-if (a === "pencil" ) {
-    console.log("qalam");
-} else if (a === "book"){
-    console.log("kitob")
-}else {
-    console.log("No`malum so`z");
+
+
+
+
+
+
+
+
+
+
+
+// ===========================  F U N C T I O N ==============
+
+function person(firstname, lastname) {
+    console.log(person("otabek", "Fayziyev"));
 };
+
+person();
